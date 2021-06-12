@@ -1,39 +1,38 @@
-*{
-margin:0;
-padding:0;
-box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color:#39a6b2;
+  color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-header{
+header {
   background-color: #39a6b2;
   padding: 20px 35px;
 }
 
 header h1 {
-  font-weight:bold;
-  font-size:36px;
+  font-weight: bold;
+  font-size: 36px;
   color: #fce138;
-  margin:0px;
+  margin: 0;
   display: inline;
 }
 
-header a{
+header a {
   text-decoration: none;
   color: #fce138;
 }
 
-header nav{
-  float:right;
-  margin:7px 0;
-  display: inline;
+header nav {
+  float: right;
+  margin: 7px 0;
 }
 
-header nav ul li{
+header nav ul li {
   display: inline;
 }
 
@@ -45,19 +44,19 @@ header nav ul li a {
 
 footer {
   background: #fce138;
-  width:100%;
+  width: 100%;
   padding: 40px 35px;
 }
 
-footer h2{
+footer h2 {
   display: inline;
-  color:#024e76;
+  color: #024e76;
   font-size: 30px;
   /* why ? margin:0; */
 }
 
 footer div {
-  float:right;
+  float: right;
   line-height: 1.5;
   text-align: right;
 }
@@ -66,11 +65,12 @@ footer a {
   color: #024e76;
 }
 
-section{
-  padding:60px;
+section {
+  padding: 60px;
 }
-/* hero section styling  */
-.hero{
+
+/* hero section styling starts*/
+.hero {
   background-image: url("../images/hero-bg.jpeg");
   background-position: center;
   background-size: cover;
@@ -79,45 +79,43 @@ section{
 }
 
 .hero-form {
-  color:#024e76;
+  color: #024e76;
   background-color: #fce138;
-  width:500px;
-  padding:20px;
+  width: 500px;
+  padding: 20px;
   border: solid 3px #024e76;
   position: absolute;
   right: 140px;
-  bottom:120px;
+  bottom: 120px;
 }
 
-.hero-form h3{
+.hero-form h3 {
   font-size: 24px;
-  margin:0;
+  /* why margin: 0; */
 }
 
-.hero-form p{
-  margin: 5px 0 15px 0;
+.hero-form p {
+  margin: 5px 10px 15px 0;
+  display: inline-block;
 }
 
 .form-input {
-  margin-bottom:15px;
+  margin-bottom: 15px;
   font-size: 16px;
-border: solid 1px #024e76;
-padding: 7px 15px;
-width: 100%;
-display: block;
+  border: solid 1px #024e76;
+  padding: 7px 15px;
+  width: 100%;
+  display: block;
+  color: #024e76;
 }
 
-.hero-form label{
+.hero-form label {
   margin-right: 10px;
 }
 
-#checkbox{
-  margin-left: 10px;
-}
-
-.hero-form button{
+.hero-form button {
   font-size: 16px;
-  background-color:#024e76;
+  background-color: #024e76;
   color: #fce138;
-  padding:10px 20px;
+  padding: 10px 20px;
 }
